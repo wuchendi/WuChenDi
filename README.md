@@ -146,8 +146,7 @@ A collection of tools, apps, and experiments I've built — most are open source
 | <a href="https://wepush.cdlab.workers.dev/" target="_blank"><b>wepush</b></a> | Database-backed console for managing and sending WeChat template messages — recipients, template editing, scheduling, and permanent push logs. |
 | <a href="https://argo2id-wasm.chendi.workers.dev/" target="_blank"><b>argo2id-wasm</b></a> | High-performance Argon2id password hashing via a WebAssembly module compiled from Rust — runs in browsers and on Cloudflare Workers. |
 | <a href="https://bac.cdlab.workers.dev/" target="_blank"><b>Baccarat</b></a> | Multi-room baccarat for Telegram groups on a single Cloudflare Worker — the bot opens and narrates rounds in the chat, a Mini App handles betting and road maps over WebSocket, and an operations console covers limits, balances, an append-only integer ledger, audit trails and reconciliation. |
-| <a href="https://lowcode-engine-demo-vue.vercel.app/" target="_blank"><b>Lowcode Engine Vue</b></a> | A low-code engine demo built on Vue 3 — drag-and-drop component composition and visual page editing. |
-| <a href="https://lowcode-engine-demo-vue2-7.vercel.app/" target="_blank"><b>Lowcode Engine Vue 2.7</b></a> | A Vue 2.7-compatible low-code engine demo for projects still on the Vue 2 line. |
+| <a href="https://lowcode-vue.pages.dev/" target="_blank"><b>Lowcode Engine Vue</b></a> | One low-code designer for Vue 3 and Vue 2.7 (`?vue=2`) on Alibaba LowCode Engine — pages, low-code components, data sources, i18n, runtime materials and code generation to a Vite + Vue project. [Usage guide](https://wcd.pages.dev/posts/lowcode-engine-vue-guide/). |
 | <img src="https://cdn.jsdelivr.net/gh/cdLab996/picture-lib/wudi/cdhub/gh_6c2b0642133e_1280.jpg" width="360" /> | A WeChat Mini Program built with **uni-app** + Vue 3 + UnoCSS — a personal hub that mirrors the site [wcd.pages.dev](https://wcd.pages.dev) and adds a few self-contained tools on top. |
 
 ### Ecosystem Contributions
@@ -164,10 +163,30 @@ A collection of tools, apps, and experiments I've built — most are open source
 | [@cdlab/driftflake](https://www.npmjs.com/package/@cdlab/driftflake) | 64-bit Snowflake ID generator with drift mode and non-blocking clock-rollback handling. Zero dependencies, TypeScript, number/bigint. |
 | [@cdlab/zustand-idb](https://www.npmjs.com/package/@cdlab/zustand-idb) | Persist Zustand stores in IndexedDB. TypeScript, serializable state, works with the persist middleware. |
 
+### 🧱 Lowcode Engine Vue
+
+One version for every package. Source: [wuchendi/lowcode-engine-vue](https://github.com/wuchendi/lowcode-engine-vue) · Designer: [lowcode-vue.pages.dev](https://lowcode-vue.pages.dev/) · [Usage guide](https://wcd.pages.dev/posts/lowcode-engine-vue-guide/) · [Write-up](https://wcd.pages.dev/posts/lowcode-engine-vue/)
+
+| Package | Description |
+| ------- | ----------- |
+| [@cdlab996/lowcode-vue3](https://www.npmjs.com/package/@cdlab996/lowcode-vue3) | 🏗️ Renderer and designer simulator for Vue 3 |
+| [@cdlab996/lowcode-vue2](https://www.npmjs.com/package/@cdlab996/lowcode-vue2) | 🏗️ Renderer and designer simulator for Vue 2.7 |
+| [@cdlab996/lowcode-vue-core](https://www.npmjs.com/package/@cdlab996/lowcode-vue-core) | 🏗️ Vue-version independent core shared by both renderers |
+| [@cdlab996/lowcode-code-generator](https://www.npmjs.com/package/@cdlab996/lowcode-code-generator) | 🔨 Schema → Vite + Vue 2.7 / Vue 3 project (API and CLI) |
+| [@cdlab996/create-lowcode](https://www.npmjs.com/package/@cdlab996/create-lowcode) | 🔨 Scaffold a material project for Vue 2.7 or Vue 3 |
+| [@cdlab996/lowcode-material-builder](https://www.npmjs.com/package/@cdlab996/lowcode-material-builder) | 🔨 Vite-based build and dev server for materials |
+| [@cdlab996/lowcode-engine-ext-vue](https://www.npmjs.com/package/@cdlab996/lowcode-engine-ext-vue) | 🕹️ Setters and binding dialogs adapted to Vue materials |
+| [@cdlab996/lowcode-plugin-code-generator](https://www.npmjs.com/package/@cdlab996/lowcode-plugin-code-generator) | 🧩 Designer code generation (出码) |
+| [@cdlab996/lowcode-plugin-vue-code-editor](https://www.npmjs.com/package/@cdlab996/lowcode-plugin-vue-code-editor) | 🧩 Vue source panel (`setup()` and Options API) |
+| [@cdlab996/lowcode-plugin-directive-loading](https://www.npmjs.com/package/@cdlab996/lowcode-plugin-directive-loading) | 🧩 `v-loading` directive setting |
+| [@cdlab996/lowcode-plugin-manual](https://www.npmjs.com/package/@cdlab996/lowcode-plugin-manual) | 🧩 User manual button |
+| [@cdlab996/lowcode-plugin-set-doc-url](https://www.npmjs.com/package/@cdlab996/lowcode-plugin-set-doc-url) | 🧩 Component documentation link |
+| `@cdlab996/lowcode-materials-*` | 🎨 [element-plus](https://www.npmjs.com/package/@cdlab996/lowcode-materials-element-plus) · [vant4](https://www.npmjs.com/package/@cdlab996/lowcode-materials-vant4) · [antd-vue4](https://www.npmjs.com/package/@cdlab996/lowcode-materials-antd-vue4) (Vue 3) · [element-ui](https://www.npmjs.com/package/@cdlab996/lowcode-materials-element-ui) · [vant2](https://www.npmjs.com/package/@cdlab996/lowcode-materials-vant2) · [antd-vue1](https://www.npmjs.com/package/@cdlab996/lowcode-materials-antd-vue1) (Vue 2.7) |
+
 <details>
 <summary>📦 Legacy packages — earlier Lowcode Engine & Toolkit work, kept for reference</summary>
 
-### 🧱 Lowcode Engine
+### 🧱 Lowcode Engine (Vue 2.7 era, superseded by Lowcode Engine Vue)
 
 | Package | Description |
 | ------- | ----------- |
@@ -175,10 +194,7 @@ A collection of tools, apps, and experiments I've built — most are open source
 | [@cdlab996/lowcode-utils2.7](https://www.npmjs.com/package/@cdlab996/lowcode-utils2.7) | 🏗️ Utility methods for renderer/simulator |
 | [@cdlab996/lowcode-vue-renderer2.7](https://www.npmjs.com/package/@cdlab996/lowcode-vue-renderer2.7) | 🏗️ lowcode renderer using Vue2.7 framework |
 | [@cdlab996/lowcode-vue-simulator-renderer2.7](https://www.npmjs.com/package/@cdlab996/lowcode-vue-simulator-renderer2.7) | 🏗️ lowcode simulator renderer using Vue2.7 engine |
-| [@cdlab996/lowcode-engine-ext-vue](https://www.npmjs.com/package/@cdlab996/lowcode-engine-ext-vue) | 🕹️ Adapt lowcode-engine-ext to the Vue version. |
 | [@cdlab996/plugin-directive-loading](https://www.npmjs.com/package/@cdlab996/plugin-directive-loading) | 🧩 Vue directive v-loading |
-| [@cdlab996/lowcode-plugin-manual](https://www.npmjs.com/package/@cdlab996/lowcode-plugin-manual) | 🧩 lowcode product user manual |
-| [@cdlab996/lowcode-plugin-set-doc-url](https://www.npmjs.com/package/@cdlab996/lowcode-plugin-set-doc-url) | 🧩 Component material new documentation address |
 | [@cdlab996/lowcode-plugin-vue-code-editor2.7](https://www.npmjs.com/package/@cdlab996/lowcode-plugin-vue-code-editor2.7) | 🧩 lowcode CodeEditor for Vue 2.7 (Not available yet) |
 | [@cdlab996/vite-plugin-lib-types2.7](https://www.npmjs.com/package/@cdlab996/vite-plugin-lib-types2.7) | 🔨 Generate typescript declarations, Supports Vue2.7 Files |
 | [@cdlab996/create-lowcode2.7](https://www.npmjs.com/package/@cdlab996/create-lowcode2.7) | 🔨 Scaffold tool for initializing Lowcode projects |
