@@ -22,7 +22,7 @@
     ·
     <!-- <a href="https://github.com/cdLab996">cdLab996</a>
     ·
-    <a href="https://resume-wudi.pages.dev/en">Resume</a>
+    <a href="https://wcd.pages.dev/cv/">Resume</a>
     · -->
     <a href="mailto:wuchendi96@gmail.com">Email</a>
     ·
@@ -77,14 +77,14 @@
 </p>
 
 <!-- > [!IMPORTANT]
-> Hey, I am considering looking for remote work opportunities. My resume is [here](https://resume-wudi.pages.dev/en), feel free to hit me up!
+> Hey, I am considering looking for remote work opportunities. My resume is [here](https://wcd.pages.dev/cv/), feel free to hit me up!
 >
-> 嘿，我正在考虑寻找远程工作机会，简历在 [这里](https://resume-wudi.pages.dev/zh)，欢迎来撩我！ -->
+> 嘿，我正在考虑寻找远程工作机会，简历在 [这里](https://wcd.pages.dev/cv/zh/)，欢迎来撩我！ -->
 
 <!-- > [!IMPORTANT]
 > 🔍 **Currently seeking remote opportunities** as a Full-Stack Developer
 >
-> 📋 [View Resume](https://resume-wudi.pages.dev/en) | [查看简历](https://resume-wudi.pages.dev/zh)
+> 📋 [View Resume](https://wcd.pages.dev/cv/) | [查看简历](https://wcd.pages.dev/cv/zh/)
 > 💌 [wuchendi96@gmail.com](mailto:wuchendi96@gmail.com) | [Telegram](https://t.me/wuchendi)
 
 > [!TIP]
@@ -97,7 +97,7 @@
 > - 🌍 Remote-first mindset with excellent communication skills
 >
 > **Ready to chat?**
-> 📄 [Resume](https://resume-wudi.pages.dev/en) | [简历](https://resume-wudi.pages.dev/zh)
+> 📄 [Resume](https://wcd.pages.dev/cv/) | [简历](https://wcd.pages.dev/cv/zh/)
 > ✉️ [wuchendi96@gmail.com](mailto:wuchendi96@gmail.com) | 💬 [Telegram](https://t.me/wuchendi)
 >
 > *Let's build something amazing together! | 让我们一起创造精彩！* -->
@@ -109,7 +109,7 @@
 >
 > 🌟 我正在寻找远程 **全栈/前端** 开发机会，希望能在现代Web技术和产品开发领域发挥专长。
 >
-> - 📄 **Resume**: [English](https://resume-wudi.pages.dev/en) | [中文](https://resume-wudi.pages.dev/zh)
+> - 📄 **Resume**: [English](https://wcd.pages.dev/cv/) | [中文](https://wcd.pages.dev/cv/zh/)
 >
 > *Let's build something amazing together! | 让我们一起创造精彩！* -->
 
@@ -124,97 +124,88 @@
 
 A collection of tools, apps, and experiments I've built — most are open source, privacy-first, and run entirely in the browser. See them all at [projects](https://wcd.pages.dev/projects).
 
-| Project | Description |
-| ------- | ----------- |
-| <a href="https://bks.cdlab.workers.dev/" target="_blank"><b>Plot</b></a> | A streamlined project and issue tracker — list and board layouts over one manual order, subtasks, markdown task threads with mentions, a realtime inbox with direct messages, and AI agents confined to the projects they are put to work in. One Hono API with an OpenAPI contract runs on Bun, as a single binary, in Docker, or on Cloudflare Workers with D1. |
-| <a href="https://ik-ui.pages.dev/" target="_blank"><b>IKUI</b></a> | Beautiful, refined UI components for modern React + Tailwind CSS apps — pre-built primitives that speed up web app development. |
-| <a href="https://fingerprintd.cdlab.workers.dev/" target="_blank"><b>fingerprintd</b></a> | Server-authoritative device fingerprinting for anti-fraud — the browser SDK (`@cdlab/fingerprintd`) only gathers evidence; the server burns a one-time nonce, fuzzy-matches it (blocking + Fellegi–Sunter), cross-checks the UA against the JA4/IP it observed itself, and your backend fetches the authoritative result by `request_id`. One Rust engine (`fingerprintd` on crates.io), compiled to WASM, runs as a native Axum server and a Cloudflare Worker on libSQL or D1. |
-| <a href="https://actorlab.pages.dev/" target="_blank"><b>ActorLab</b></a> | A browser-only infinite canvas for previsualisation — link media, text and generation nodes, crop images, trim audio and grab video frames inside a node, and open a 3D director stage in any node to pose characters, direct cameras, and send captured shots back onto the canvas. |
-| <a href="https://tinylink.cdlab.workers.dev/" target="_blank"><b>TinyLink</b></a> | Privacy-first link shortener on a single Cloudflare Worker — KV-cached edge redirects with geo/device routing, password and unsafe-link gates, custom domains, link-in-bio launchpads, styled QR codes, and analytics that count visitors by a daily-rotating hash instead of storing IPs. |
-| <a href="https://clearify.pages.dev/" target="_blank"><b>Clearify</b></a> | One-click background removal, batch image compression (AVIF / WebP / JXL…), and up to 90% smaller video — all running locally in the browser, no uploads. |
-| <a href="https://dropply.pages.dev/" target="_blank"><b>Dropply</b></a> | Local-first encryption with optional sharing — encrypt/decrypt files and text in the browser (XChaCha20-Poly1305 in a Web Worker; password or public-key/ECIES mode), then share the finished ciphertext via a retrieval code. The key travels out-of-band, never in a URL, so the server only ever stores ciphertext. |
-| <a href="https://bycut.pages.dev/" target="_blank"><b>ByCut</b></a> | A fully client-side, open-source video editor — a privacy-first CapCut alternative that edits locally with zero server uploads. |
-| <a href="https://flox.pages.dev/" target="_blank"><b>Flox</b></a> | Multi-source parallel video search with real-time streaming results (SSE) across 38+ sources, plus built-in HLS/M3U8 playback with ad filtering. (🔑 `aa.2026`) |
-| <a href="https://byplay.pages.dev/" target="_blank"><b>byplay</b></a> | Versatile online video player with HLS adaptive bitrate, configurable buffering, and one-click handoff to vidl for downloads. |
-| <a href="https://vidl.pages.dev/" target="_blank"><b>vidl</b></a> | Browser-based video downloader that auto-detects format (M3U8/HLS, MP4, WebM, MKV, FLV…) and streams to disk with near-zero memory via the Streams API. |
-| <a href="https://bytts.pages.dev/" target="_blank"><b>byTTS</b></a> | Convert text to natural-sounding speech via Azure Cognitive Services — SSML synthesis, streaming audio output, and fine-grained voice controls. |
-| <a href="https://byshot.pages.dev/" target="_blank"><b>byshot</b></a> | Cloudinary-backed photography gallery with a responsive masonry layout, full-screen lightbox, deep-linkable photos, and last-viewed scroll restore. |
-| <a href="https://text2img.cdlab.workers.dev/" target="_blank"><b>text2img</b></a> | Generate images from text prompts with FLUX, SDXL, and DreamShaper — random prompts, rich parameter controls, and real-time preview. |
-| <a href="https://values.pages.dev/" target="_blank"><b>value-vision</b></a> | Compare cryptocurrencies, fiat currencies, and commodities side by side on a unified scale — enter any asset or amount and see the equivalent. |
-| <a href="https://live-user.cdlab.workers.dev/" target="_blank"><b>LiveUser</b></a> | Drop in one script tag for real-time online-user count and total visits, backed by the WebSocket Hibernation API and Durable Objects SQLite. |
-| <a href="https://repo-changelog.vercel.app/" target="_blank"><b>repo-changelog</b></a> | Track releases and changelogs from many GitHub repos in one dashboard — search by repo, user, or org and sort by stars or update time. |
-| <a href="https://wepush.cdlab.workers.dev/" target="_blank"><b>wepush</b></a> | Database-backed console for managing and sending WeChat template messages — recipients, template editing, scheduling, and permanent push logs. |
-| <a href="https://argo2id-wasm.chendi.workers.dev/" target="_blank"><b>argo2id-wasm</b></a> | High-performance Argon2id password hashing via a WebAssembly module compiled from Rust — runs in browsers and on Cloudflare Workers. |
-| <a href="https://bac.cdlab.workers.dev/" target="_blank"><b>Baccarat</b></a> | Multi-room baccarat for Telegram groups on a single Cloudflare Worker — the bot opens and narrates rounds in the chat, a Mini App handles betting and road maps over WebSocket, and an operations console covers limits, balances, an append-only integer ledger, audit trails and reconciliation. |
-| <a href="https://lowcode-vue.pages.dev/" target="_blank"><b>Lowcode Engine Vue</b></a> | One low-code designer for Vue 3 and Vue 2.7 (`?vue=2`) on Alibaba LowCode Engine — pages, low-code components, data sources, i18n, runtime materials and code generation to a Vite + Vue project. [Usage guide](https://wcd.pages.dev/posts/lowcode-engine-vue-guide/). |
-| <img src="https://cdn.jsdelivr.net/gh/cdLab996/picture-lib/wudi/cdhub/gh_6c2b0642133e_1280.jpg" width="360" /> | A WeChat Mini Program built with **uni-app** + Vue 3 + UnoCSS — a personal hub that mirrors the site [wcd.pages.dev](https://wcd.pages.dev) and adds a few self-contained tools on top. |
+- [**Plot**](https://bks.cdlab.workers.dev/) — Project and issue tracker with realtime inbox and project-scoped AI agents
+- [**IKUI**](https://ik-ui.pages.dev/) — Refined UI components for React + Tailwind CSS
+- [**fingerprintd**](https://fingerprintd.cdlab.workers.dev/) — Server-authoritative device fingerprinting for anti-fraud (Rust + WASM, Cloudflare Workers)
+- [**ActorLab**](https://actorlab.pages.dev/) — Browser-only infinite canvas for previsualisation with a 3D director stage
+- [**TinyLink**](https://tinylink.cdlab.workers.dev/) — Privacy-first link shortener on a single Cloudflare Worker
+- [**Clearify**](https://clearify.pages.dev/) — Background removal, image compression and video shrinking, all in the browser
+- [**Dropply**](https://dropply.pages.dev/) — Local-first encryption with ciphertext-only sharing
+- [**ByCut**](https://bycut.pages.dev/) — Client-side, open-source video editor
+- [**Flox**](https://flox.pages.dev/) — Multi-source parallel video search with HLS playback (🔑 `aa.2026`)
+- [**byplay**](https://byplay.pages.dev/) — Online video player with HLS adaptive bitrate
+- [**vidl**](https://vidl.pages.dev/) — Browser-based video downloader for M3U8/HLS, MP4, WebM and more
+- [**byTTS**](https://bytts.pages.dev/) — Text to speech via Azure Cognitive Services
+- [**byshot**](https://byshot.pages.dev/) — Cloudinary-backed photography gallery
+- [**text2img**](https://text2img.cdlab.workers.dev/) — Text-to-image generation with FLUX, SDXL and DreamShaper
+- [**value-vision**](https://values.pages.dev/) — Compare crypto, fiat and commodities on one scale
+- [**LiveUser**](https://live-user.cdlab.workers.dev/) — Real-time online-user counter in one script tag
+- [**repo-changelog**](https://repo-changelog.vercel.app/) — Releases and changelogs from many GitHub repos in one dashboard
+- [**wepush**](https://wepush.cdlab.workers.dev/) — Console for managing and sending WeChat template messages
+- [**argo2id-wasm**](https://argo2id-wasm.chendi.workers.dev/) — Argon2id password hashing in WebAssembly, compiled from Rust
+- [**Baccarat**](https://bac.cdlab.workers.dev/) — Multi-room baccarat for Telegram groups on a single Cloudflare Worker
+- [**Lowcode Engine Vue**](https://lowcode-vue.pages.dev/) — Low-code designer for Vue 3 and Vue 2.7 on Alibaba LowCode Engine ([Usage guide](https://wcd.pages.dev/posts/lowcode-engine-vue-guide/))
+- **WeChat Mini Program** — Personal hub mirroring [wcd.pages.dev](https://wcd.pages.dev) with a few extra tools<br />
+  <img src="https://cdn.jsdelivr.net/gh/cdLab996/picture-lib/wudi/cdhub/gh_6c2b0642133e_1280.jpg" width="160" />
 
 ### Ecosystem Contributions
 
-- <a href="https://github.com/dotns/nsl" target="_blank"><b>NSL</b></a> — Pretty-hostname reverse proxy for local development
-- <a href="https://github.com/bkhq/bkd" target="_blank"><b>BKD</b></a> — Kanban app for AI coding agents
+- [**NSL**](https://github.com/dotns/nsl) — Pretty-hostname reverse proxy for local development
+- [**BKD**](https://github.com/bkhq/bkd) — Kanban app for AI coding agents
 
 ---
 
 ## npm Packages
 
-| Package | Description |
-| ------- | ----------- |
-| [@cdlab/driftflake](https://www.npmjs.com/package/@cdlab/driftflake) | 64-bit Snowflake ID generator with drift mode and non-blocking clock-rollback handling. Zero dependencies, TypeScript, number/bigint. |
-| [@cdlab/zustand-idb](https://www.npmjs.com/package/@cdlab/zustand-idb) | Persist Zustand stores in IndexedDB. TypeScript, serializable state, works with the persist middleware. |
+- [**@cdlab/driftflake**](https://www.npmjs.com/package/@cdlab/driftflake) — 64-bit Snowflake ID generator with drift mode and non-blocking clock-rollback handling. Zero dependencies, TypeScript, number/bigint.
+- [**@cdlab/zustand-idb**](https://www.npmjs.com/package/@cdlab/zustand-idb) — Persist Zustand stores in IndexedDB. TypeScript, serializable state, works with the persist middleware.
 
 ### 🧱 Lowcode Engine Vue
 
 One version for every package. Source: [wuchendi/lowcode-engine-vue](https://github.com/wuchendi/lowcode-engine-vue) · Designer: [lowcode-vue.pages.dev](https://lowcode-vue.pages.dev/) · [Usage guide](https://wcd.pages.dev/posts/lowcode-engine-vue-guide/) · [Write-up](https://wcd.pages.dev/posts/lowcode-engine-vue/)
 
-| Package | Description |
-| ------- | ----------- |
-| [@cdlab996/lowcode-vue3](https://www.npmjs.com/package/@cdlab996/lowcode-vue3) | 🏗️ Renderer and designer simulator for Vue 3 |
-| [@cdlab996/lowcode-vue2](https://www.npmjs.com/package/@cdlab996/lowcode-vue2) | 🏗️ Renderer and designer simulator for Vue 2.7 |
-| [@cdlab996/lowcode-vue-core](https://www.npmjs.com/package/@cdlab996/lowcode-vue-core) | 🏗️ Vue-version independent core shared by both renderers |
-| [@cdlab996/lowcode-code-generator](https://www.npmjs.com/package/@cdlab996/lowcode-code-generator) | 🔨 Schema → Vite + Vue 2.7 / Vue 3 project (API and CLI) |
-| [@cdlab996/create-lowcode](https://www.npmjs.com/package/@cdlab996/create-lowcode) | 🔨 Scaffold a material project for Vue 2.7 or Vue 3 |
-| [@cdlab996/lowcode-material-builder](https://www.npmjs.com/package/@cdlab996/lowcode-material-builder) | 🔨 Vite-based build and dev server for materials |
-| [@cdlab996/lowcode-engine-ext-vue](https://www.npmjs.com/package/@cdlab996/lowcode-engine-ext-vue) | 🕹️ Setters and binding dialogs adapted to Vue materials |
-| [@cdlab996/lowcode-plugin-code-generator](https://www.npmjs.com/package/@cdlab996/lowcode-plugin-code-generator) | 🧩 Designer code generation (出码) |
-| [@cdlab996/lowcode-plugin-vue-code-editor](https://www.npmjs.com/package/@cdlab996/lowcode-plugin-vue-code-editor) | 🧩 Vue source panel (`setup()` and Options API) |
-| [@cdlab996/lowcode-plugin-directive-loading](https://www.npmjs.com/package/@cdlab996/lowcode-plugin-directive-loading) | 🧩 `v-loading` directive setting |
-| [@cdlab996/lowcode-plugin-manual](https://www.npmjs.com/package/@cdlab996/lowcode-plugin-manual) | 🧩 User manual button |
-| [@cdlab996/lowcode-plugin-set-doc-url](https://www.npmjs.com/package/@cdlab996/lowcode-plugin-set-doc-url) | 🧩 Component documentation link |
-| `@cdlab996/lowcode-materials-*` | 🎨 [element-plus](https://www.npmjs.com/package/@cdlab996/lowcode-materials-element-plus) · [vant4](https://www.npmjs.com/package/@cdlab996/lowcode-materials-vant4) · [antd-vue4](https://www.npmjs.com/package/@cdlab996/lowcode-materials-antd-vue4) (Vue 3) · [element-ui](https://www.npmjs.com/package/@cdlab996/lowcode-materials-element-ui) · [vant2](https://www.npmjs.com/package/@cdlab996/lowcode-materials-vant2) · [antd-vue1](https://www.npmjs.com/package/@cdlab996/lowcode-materials-antd-vue1) (Vue 2.7) |
+- [**@cdlab996/lowcode-vue3**](https://www.npmjs.com/package/@cdlab996/lowcode-vue3) — 🏗️ Renderer and designer simulator for Vue 3
+- [**@cdlab996/lowcode-vue2**](https://www.npmjs.com/package/@cdlab996/lowcode-vue2) — 🏗️ Renderer and designer simulator for Vue 2.7
+- [**@cdlab996/lowcode-vue-core**](https://www.npmjs.com/package/@cdlab996/lowcode-vue-core) — 🏗️ Vue-version independent core shared by both renderers
+- [**@cdlab996/lowcode-code-generator**](https://www.npmjs.com/package/@cdlab996/lowcode-code-generator) — 🔨 Schema → Vite + Vue 2.7 / Vue 3 project (API and CLI)
+- [**@cdlab996/create-lowcode**](https://www.npmjs.com/package/@cdlab996/create-lowcode) — 🔨 Scaffold a material project for Vue 2.7 or Vue 3
+- [**@cdlab996/lowcode-material-builder**](https://www.npmjs.com/package/@cdlab996/lowcode-material-builder) — 🔨 Vite-based build and dev server for materials
+- [**@cdlab996/lowcode-engine-ext-vue**](https://www.npmjs.com/package/@cdlab996/lowcode-engine-ext-vue) — 🕹️ Setters and binding dialogs adapted to Vue materials
+- [**@cdlab996/lowcode-plugin-code-generator**](https://www.npmjs.com/package/@cdlab996/lowcode-plugin-code-generator) — 🧩 Designer code generation (出码)
+- [**@cdlab996/lowcode-plugin-vue-code-editor**](https://www.npmjs.com/package/@cdlab996/lowcode-plugin-vue-code-editor) — 🧩 Vue source panel (`setup()` and Options API)
+- [**@cdlab996/lowcode-plugin-directive-loading**](https://www.npmjs.com/package/@cdlab996/lowcode-plugin-directive-loading) — 🧩 `v-loading` directive setting
+- [**@cdlab996/lowcode-plugin-manual**](https://www.npmjs.com/package/@cdlab996/lowcode-plugin-manual) — 🧩 User manual button
+- [**@cdlab996/lowcode-plugin-set-doc-url**](https://www.npmjs.com/package/@cdlab996/lowcode-plugin-set-doc-url) — 🧩 Component documentation link
+- **@cdlab996/lowcode-materials-*** — 🎨 [element-plus](https://www.npmjs.com/package/@cdlab996/lowcode-materials-element-plus) · [vant4](https://www.npmjs.com/package/@cdlab996/lowcode-materials-vant4) · [antd-vue4](https://www.npmjs.com/package/@cdlab996/lowcode-materials-antd-vue4) (Vue 3) · [element-ui](https://www.npmjs.com/package/@cdlab996/lowcode-materials-element-ui) · [vant2](https://www.npmjs.com/package/@cdlab996/lowcode-materials-vant2) · [antd-vue1](https://www.npmjs.com/package/@cdlab996/lowcode-materials-antd-vue1) (Vue 2.7)
 
 <details>
 <summary>📦 Legacy packages — earlier Lowcode Engine & Toolkit work, kept for reference</summary>
 
 ### 🧱 Lowcode Engine (Vue 2.7 era, superseded by Lowcode Engine Vue)
 
-| Package | Description |
-| ------- | ----------- |
-| [@cdlab996/lowcode-hooks2.7](https://www.npmjs.com/package/@cdlab996/lowcode-hooks2.7) | 🏗️ Hooks for renderer/simulator |
-| [@cdlab996/lowcode-utils2.7](https://www.npmjs.com/package/@cdlab996/lowcode-utils2.7) | 🏗️ Utility methods for renderer/simulator |
-| [@cdlab996/lowcode-vue-renderer2.7](https://www.npmjs.com/package/@cdlab996/lowcode-vue-renderer2.7) | 🏗️ lowcode renderer using Vue2.7 framework |
-| [@cdlab996/lowcode-vue-simulator-renderer2.7](https://www.npmjs.com/package/@cdlab996/lowcode-vue-simulator-renderer2.7) | 🏗️ lowcode simulator renderer using Vue2.7 engine |
-| [@cdlab996/plugin-directive-loading](https://www.npmjs.com/package/@cdlab996/plugin-directive-loading) | 🧩 Vue directive v-loading |
-| [@cdlab996/lowcode-plugin-vue-code-editor2.7](https://www.npmjs.com/package/@cdlab996/lowcode-plugin-vue-code-editor2.7) | 🧩 lowcode CodeEditor for Vue 2.7 (Not available yet) |
-| [@cdlab996/vite-plugin-lib-types2.7](https://www.npmjs.com/package/@cdlab996/vite-plugin-lib-types2.7) | 🔨 Generate typescript declarations, Supports Vue2.7 Files |
-| [@cdlab996/create-lowcode2.7](https://www.npmjs.com/package/@cdlab996/create-lowcode2.7) | 🔨 Scaffold tool for initializing Lowcode projects |
-| [@cdlab996/vue-cli-plugin-lowcode2.7](https://www.npmjs.com/package/@cdlab996/vue-cli-plugin-lowcode2.7) | 🔨 Development and build tool plugin for Lowcode engine |
-| [@cdlab996/element-plus-lowcode-materials](https://www.npmjs.com/package/@cdlab996/element-plus-lowcode-materials) | 🎨 Element Plus(2.6.3) Materials for Vue3 |
-| [@cdlab996/antd-lowcode-materials](https://www.npmjs.com/package/@cdlab996/antd-lowcode-materials) | 🎨 Ant Design Vue(4.1.2) Materials for Vue3 |
-| [@cdlab996/vant-lowcode-materials](https://www.npmjs.com/package/@cdlab996/vant-lowcode-materials) | 🎨 Vant(4.8.10) Materials for Vue3 |
-| [@cdlab996/element-lowcode-materials2.7](https://www.npmjs.com/package/@cdlab996/element-lowcode-materials2.7) | 🎨 Element(2.15.13) Materials for Vue2.7 |
-| [@cdlab996/antd-lowcode-materials2.7](https://www.npmjs.com/package/@cdlab996/antd-lowcode-materials2.7) | 🎨 Ant Design Vue(1.7.8) Materials for Vue2.7 |
-| [@cdlab996/vant-lowcode-materials2.7](https://www.npmjs.com/package/@cdlab996/vant-lowcode-materials2.7) | 🎨 Vant(2.12.54) Materials for Vue2.7 |
+- [**@cdlab996/lowcode-hooks2.7**](https://www.npmjs.com/package/@cdlab996/lowcode-hooks2.7) — 🏗️ Hooks for renderer/simulator
+- [**@cdlab996/lowcode-utils2.7**](https://www.npmjs.com/package/@cdlab996/lowcode-utils2.7) — 🏗️ Utility methods for renderer/simulator
+- [**@cdlab996/lowcode-vue-renderer2.7**](https://www.npmjs.com/package/@cdlab996/lowcode-vue-renderer2.7) — 🏗️ lowcode renderer using Vue2.7 framework
+- [**@cdlab996/lowcode-vue-simulator-renderer2.7**](https://www.npmjs.com/package/@cdlab996/lowcode-vue-simulator-renderer2.7) — 🏗️ lowcode simulator renderer using Vue2.7 engine
+- [**@cdlab996/plugin-directive-loading**](https://www.npmjs.com/package/@cdlab996/plugin-directive-loading) — 🧩 Vue directive v-loading
+- [**@cdlab996/lowcode-plugin-vue-code-editor2.7**](https://www.npmjs.com/package/@cdlab996/lowcode-plugin-vue-code-editor2.7) — 🧩 lowcode CodeEditor for Vue 2.7 (Not available yet)
+- [**@cdlab996/vite-plugin-lib-types2.7**](https://www.npmjs.com/package/@cdlab996/vite-plugin-lib-types2.7) — 🔨 Generate typescript declarations, Supports Vue2.7 Files
+- [**@cdlab996/create-lowcode2.7**](https://www.npmjs.com/package/@cdlab996/create-lowcode2.7) — 🔨 Scaffold tool for initializing Lowcode projects
+- [**@cdlab996/vue-cli-plugin-lowcode2.7**](https://www.npmjs.com/package/@cdlab996/vue-cli-plugin-lowcode2.7) — 🔨 Development and build tool plugin for Lowcode engine
+- [**@cdlab996/element-plus-lowcode-materials**](https://www.npmjs.com/package/@cdlab996/element-plus-lowcode-materials) — 🎨 Element Plus(2.6.3) Materials for Vue3
+- [**@cdlab996/antd-lowcode-materials**](https://www.npmjs.com/package/@cdlab996/antd-lowcode-materials) — 🎨 Ant Design Vue(4.1.2) Materials for Vue3
+- [**@cdlab996/vant-lowcode-materials**](https://www.npmjs.com/package/@cdlab996/vant-lowcode-materials) — 🎨 Vant(4.8.10) Materials for Vue3
+- [**@cdlab996/element-lowcode-materials2.7**](https://www.npmjs.com/package/@cdlab996/element-lowcode-materials2.7) — 🎨 Element(2.15.13) Materials for Vue2.7
+- [**@cdlab996/antd-lowcode-materials2.7**](https://www.npmjs.com/package/@cdlab996/antd-lowcode-materials2.7) — 🎨 Ant Design Vue(1.7.8) Materials for Vue2.7
+- [**@cdlab996/vant-lowcode-materials2.7**](https://www.npmjs.com/package/@cdlab996/vant-lowcode-materials2.7) — 🎨 Vant(2.12.54) Materials for Vue2.7
 
 ### 🧰 Toolkit
 
-| Package | Description |
-| ------- | ----------- |
-| [@cdlab996/eslint-config-ts](https://www.npmjs.com/package/@cdlab996/eslint-config-ts) | 🔨 Eslint TypeScript |
-| [@cdlab996/eslint-config-next](https://www.npmjs.com/package/@cdlab996/eslint-config-next) | 🔨 Eslint Nextjs |
-| [@cdlab996/eslint-config-react](https://www.npmjs.com/package/@cdlab996/eslint-config-react) | 🔨 Eslint React |
-| [@cdlab996/eslint-config-vue](https://www.npmjs.com/package/@cdlab996/eslint-config-vue) | 🔨 Eslint Vue |
-| [@cdlab996/eslint-config-vue2](https://www.npmjs.com/package/@cdlab996/eslint-config-vue2) | 🔨 Eslint Vue2 |
-| [@cdlab996/prettier-config](https://www.npmjs.com/package/@cdlab996/prettier-config) | 🔨 prettier |
+- [**@cdlab996/eslint-config-ts**](https://www.npmjs.com/package/@cdlab996/eslint-config-ts) — 🔨 Eslint TypeScript
+- [**@cdlab996/eslint-config-next**](https://www.npmjs.com/package/@cdlab996/eslint-config-next) — 🔨 Eslint Nextjs
+- [**@cdlab996/eslint-config-react**](https://www.npmjs.com/package/@cdlab996/eslint-config-react) — 🔨 Eslint React
+- [**@cdlab996/eslint-config-vue**](https://www.npmjs.com/package/@cdlab996/eslint-config-vue) — 🔨 Eslint Vue
+- [**@cdlab996/eslint-config-vue2**](https://www.npmjs.com/package/@cdlab996/eslint-config-vue2) — 🔨 Eslint Vue2
+- [**@cdlab996/prettier-config**](https://www.npmjs.com/package/@cdlab996/prettier-config) — 🔨 prettier
 
 </details>
