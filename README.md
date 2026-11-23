@@ -126,6 +126,7 @@ A collection of tools, apps, and experiments I've built — most are open source
 
 - [**Plot**](https://bks.cdlab.workers.dev/) — Project and issue tracker with realtime inbox and project-scoped AI agents
 - [**IKUI**](https://ik-ui.pages.dev/) — Refined UI components for React + Tailwind CSS
+- [**appshell**](https://wuchendi.github.io/appshell/demo/) — Dashboard app shell shipped as a shadcn registry: icon rail, resizable space panels, column tables and Cmd/Ctrl+K search, for TanStack Router and Next.js ([Source](https://github.com/wuchendi/appshell))
 - [**fingerprintd**](https://fingerprintd.cdlab.workers.dev/) — Server-authoritative device fingerprinting for anti-fraud (Rust + WASM, Cloudflare Workers)
 - [**ActorLab**](https://actorlab.pages.dev/) — Browser-only infinite canvas for previsualisation with a 3D director stage
 - [**TinyLink**](https://tinylink.cdlab.workers.dev/) — Privacy-first link shortener on a single Cloudflare Worker
