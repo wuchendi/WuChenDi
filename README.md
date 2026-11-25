@@ -144,9 +144,12 @@ A collection of tools, apps, and experiments I've built — most are open source
 - [**repo-changelog**](https://repo-changelog.vercel.app/) — Releases and changelogs from many GitHub repos in one dashboard
 - [**wepush**](https://wepush.cdlab.workers.dev/) — Console for managing and sending WeChat template messages
 - [**argo2id-wasm**](https://argo2id-wasm.chendi.workers.dev/) — Argon2id password hashing in WebAssembly, compiled from Rust
+- [**jsc**](https://github.com/wuchendi/jsc) — Ahead-of-time JavaScript/TypeScript → WebAssembly compiler running on Wasmtime, no JIT or interpreter
+- [**@cdlab/image**](https://github.com/wuchendi/image) — One Rust image library for browser, Node.js and Cloudflare Workers: codecs, transforms, QR codes and watermarking as lazy-loaded WASM
 - [**Baccarat**](https://bac.cdlab.workers.dev/) — Multi-room baccarat for Telegram groups on a single Cloudflare Worker
 - [**Lowcode Engine Vue**](https://lowcode-vue.pages.dev/) — Low-code designer for Vue 3 and Vue 2.7 on Alibaba LowCode Engine ([Usage guide](https://wcd.pages.dev/posts/lowcode-engine-vue-guide/))
 - [**x-ssr-reconstruct**](https://github.com/wuchendi/x-ssr-reconstruct) — Runnable reconstruction of X's web SSR: Fastify + React streaming + Relay on Platformatic Watt ([Write-up](https://wcd.pages.dev/posts/react-streaming-ssr-node-stream/))
+- [**Posera**](https://posera.pages.dev/) — Pose, outfit and portrait reference galleries read live from their sources, with an AI try-on and image studio
 - **WeChat Mini Program** — Personal hub mirroring [wcd.pages.dev](https://wcd.pages.dev) with a few extra tools<br />
   <img src="https://cdn.jsdelivr.net/gh/cdLab996/picture-lib/wudi/cdhub/gh_6c2b0642133e_1280.jpg" width="160" />
 
