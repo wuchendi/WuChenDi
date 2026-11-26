@@ -9,7 +9,7 @@
 
   <p align="center">
     <!-- A full-stack engineer passionate about building products from the ground up. -->
-    Software Engineer 🖥️ working w/ JS, TS, Node.js, React, Vue
+    Software Engineer 🖥️ working w/ JS, TS, Node.js, Python, Go, Rust, React, GraphQL, Vue
     <br />
     <a href="https://wcd.pages.dev/"><strong>Learn more »</strong></a>
     <br />
