@@ -14,7 +14,7 @@
     <a href="https://wcd.pages.dev/"><strong>Learn more »</strong></a>
     <br />
     <br />
-    <a href="https://byshot.pages.dev/">Photography</a>
+    <a href="https://wcd.pages.dev/photography/">Photography</a>
     ·
     <a href="https://wcd.pages.dev/media">Media</a>
     ·
